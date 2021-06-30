@@ -22,8 +22,9 @@ Infine scrivi sulla pagina nomecognomecolorepreferito21 */
 // Variabili - assegnazione e dichiarazione
 
 var message = "La tua password è:";
-var numberPw = "21";
-var yourpwPlaceholder = document.getElementById("yourpw");
+var numberPassword = "21";
+var userPassword = document.getElementById("user-password");
+console.log("userPassword");
 
 var userName = prompt("Come ti chiami?");
 var userSurname = prompt("Quale è il tuo cognome?");
@@ -31,9 +32,9 @@ var userColor = prompt("Quale è il tuo colore preferito?");
 console.log ("Nome: ", userName);
 console.log ("Cognome: ", userSurname);
 console.log ("Colore preferito: ", userColor);
-console.log ("Elemento HTML: ", yourpwPlaceholder);
+console.log ("Elemento HTML: ", userPassword);
 
 
 // Scriviamo la password dell'utente 
 
-yourpwPlaceholder.innerHTML = message + " " + userName + userSurname + userColor + numberPw;
+userPassword.innerHTML = message + " " + userName + userSurname + userColor + numberPassword;
