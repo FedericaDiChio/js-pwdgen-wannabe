@@ -1,4 +1,4 @@
-console.log("JS OK");
+// console.log("JS OK");
 
 /* Chiedi all’utente il suo nome,
 poi chiedi il suo cognome,
