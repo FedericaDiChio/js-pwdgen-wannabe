@@ -23,7 +23,7 @@ Infine scrivi sulla pagina nomecognomecolorepreferito21 */
 
 var message = "La tua password è:";
 var numberPassword = "21";
-var userPassword = document.getElementById("user-password");
+var userPassword = document.getElementById("your-password");
 console.log("userPassword");
 
 var userName = prompt("Come ti chiami?");
