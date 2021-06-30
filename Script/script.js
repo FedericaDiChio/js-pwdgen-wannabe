@@ -22,4 +22,4 @@ console.log ("favColor");
 
 // Scriviamo la password dell'utente 
 
-yourpwplaceHolder.innerHTML = messagepw + "" + name + surname + favColor + 21;
+yourpwplaceHolder.innerHTML = messagepw + " " + name + surname + favColor + 21;
