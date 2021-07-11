@@ -34,7 +34,8 @@ console.log ("Cognome: ", userSurname);
 console.log ("Colore preferito: ", userColor);
 console.log ("Elemento HTML: ", userPassword);
 
+var password = message + " " + userName + userSurname + userColor + numberPassword;
 
 // Scriviamo la password dell'utente 
 
-userPassword.innerHTML = message + " " + userName + userSurname + userColor + numberPassword;
+userPassword.innerHTML = password;
